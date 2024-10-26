@@ -1,0 +1,134 @@
+Device name: Poco F5/ Redmi Note 12 Turbo
+Device codename: marble
+Device maintainer: kenway214
+
+
+## DerpFest 15
+
+**Device Changelog 13.12.2024**
+
+- December security patch
+- Latest source Changes
+- WifiDisplay: Fixed Wifi Display DRM
+- Fixed lock screen widget
+- Fixed Auto brightness on AOD
+- Refractor Thermal profile tile service
+- Fixed fingerprint sensor location for both type of display panels
+- Add missing displayconfig for 0b panel
+- Fixed double tap not working in AOD after sometimes when phone is in aod state for long
+- Added support for 120 fps in certain games (BGMI/PUBG etc)
+- Fixed secure NFC functionality
+- DolbyManager: Make bass enhancer available on speakers as well
+- DolbyManager: Migrate MainSwitchBar and Switch to Material3
+- overlay: Updated pixel pitch
+- Added OTA updater support
+- Updated BCR to 1.74
+
+
+**Device Changelog 30.11.2024**
+
+- Fixed double tap to awake and double tap to ambient
+- Improved logic Thermal profile tile service
+- Fixed pocket mode
+- Refactor BootCompletedReceiver
+- Fix NPE in getting cameraIds
+- Fix crash when camera IDs list is null
+
+
+**Device Changelog 24.11.2024**
+
+- Nov security patch
+- Latest source Changes
+
+
+**Device Changelog 31.10.2024**
+
+- Oct security patch and latest Derpfest 15 Source Changes with all customisations.
+- Introduce Thermal Profile Tile Service ( Default/Battery saving/Gaming/Performance mode) -add it in quicksettings panel
+- Removed Per app thermal profile.
+- Added Face Unlock.
+- Fixed Google recorder voice to speech recognision.
+- Switch to armv8-2a-dotprod arch variant. It's better than armv9-a because of SVE2 and performance in sm8650.
+- Fixed Pocket Mode and Implement Pocket Detection service.
+- Full support of Dolby media codecs ac3, eac3, eac3-joc.
+- Link dolby blobs against v33 libstagefright_foundation. fixes crashes and absurdly high CPU usage while using dolby.
+- Expose aux cameras to com.android.camera and Aperture.
+- Build Camera Legacy HIDL deps
+- overlay: Adjust keyguard_indication_margin_bottom
+- Build libusbhost.vendor
+- Patch libwfdservice to resolve duplicate dependencies
+- Allow gettid syscall for wfdhdcphalservice
+- Shim WFD with libgui_shim/libinput_shim
+- Adjust auto brightness configuration
+- Introduce displayfeature color service
+- Fixed HyperOS Cam OIS
+- Fixed Speaker volume not controlled by vol buttons
+- Improved speak volume
+- Import thermal engine and thermal service
+- Fixed Smooth Display
+- Enable and adjust ambient display burn-in protection
+- Fixed Netflix DRM (dolby vision) in android 15
+- Fix microphone issues in certain apps (e.g., WhatsApp)
+- Remove BT LC3 codec support
+- Add A2DP Bluetooth audio routes
+- Disable Dynamic Range Compression in audio
+- Set 5G icon always available
+- Improve carrier MNC attributes for better compatibility
+- Enable VoNR support
+- Force-enable IMS capabilities
+- Switch to Xiaomi healthd-ext HAL (AIDL)
+- Updated BCR to 1.72
+- Fixed scrooling lag in certain apps ( i.e chrome ,youtube, netflix etc) Now its correctly at 120 fps .( maps still 60 tell google to fix that).
+- Disable redir_party_num. fixes incoming caller number not being parsed correctly by Phone app on VoLTE and VoWiFi.
+- Disabled the SRE Display Feature.
+- Disabled the Frame Rate Override Feature.
+- Update Display Saturation Service Drawable .
+- Added missing camera properties.
+- Updated SEPolicy for missing file contexts and permissions.
+- Included libziparchive.
+
+
+**Device Changelog 06.10.2024**
+
+- Oct security patch and latest Derpfest 15 Source Changes.
+- Fixed Netflix Dolby Vision playback
+- Added missing Dolby media codecs ac3, eac3, eac3-joc
+- Added Dolby Surround support
+- Added Spatial Audio support
+- Switched to AIDL Fingerprint hal
+- Fixed fingerprint sensor location
+- Fixed USB otg
+- Fixed USB tethering
+- Latest source changes
+- Fixed device certified and play integrity , not strong . Please Read Carefully
+
+
+
+**Device Changelog 28.09.2024**
+
+- Added Dolby Vision support
+- Enabled hbm during HDR and Vision Contents
+- Fixed Netflix DRM
+- Fixed VONR calling and VOWIFI
+- Fixed USB otg
+- Fixed USB tethering
+- Fixed memecam crash while taking potrait
+- Address some background crash causing idle battery drain
+- Bring back custom Display Saturation service
+
+
+**Device Changelog 26.09.2024**
+
+- DRM fixed
+
+
+**Device Changelog 22.09.2024**
+
+- Initial A15 build
+
+Known Bugs:
+- DRM dead
+- A lot more? (Report Bugs with proper logs )
+- Use A14 twrp to sideload rom. flashing steps same as a14 roms. uncheck "flash twrp after flashing rom" before sideloading
+- Use Zygisk next (https://github.com/Dr-TSNG/ZygiskNext/releases/tag/v1.1.0) and Pif module (https://github.com/chiteroman/PlayIntegrityFix/releases/tag/v17.6) to pass certification
+- Report only device sided bugs .. report source sided bugs to derp source support group
