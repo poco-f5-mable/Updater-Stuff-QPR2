@@ -5,6 +5,48 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 11.1.2025**
+
+- Latest source changes
+- QPR1 with December security patch
+- Combined Per-App Thermal Profile (Settings > Battery) and Thermal Profile Tile Service (Quick Settings) for seamless integration.
+     Per-App Thermal Profile (Settings > Battery)
+
+  • Added a Master Switch for Per-App Thermal Profile.
+  • Automatically determine thermal profiles for apps.
+  • Updated drawables for a modern look.
+  • Updated sconfig values to match the stock ROM for better compatibility.
+  • Master Switch is disabled by default on the initial reboot. 
+  • Enable it if you prefer Per-App Thermal Profile over Thermal Profile Tile Service.
+  • When Per-App Thermal Profile is enabled (Via master switch):Thermal Profile Tile Service is automatically disabled.
+     Thermal profiles are applied on a per-app basis.
+  • When the Master Switch is disabled (Via master switch):System-wide Thermal Profile Tile Service is automatically enabled.
+
+      Thermal Profile Tile Service (Available via Quick Settings)
+
+  • Reworked the Thermal Profile Tile Service for a more universal, system-wide implementation.
+  • Dropped Game Mode thermal profile.
+  • Now includes only three modes: Default //Performance //Battery Saver
+  • Battery Thermal Profile:Automatically enables system-wide Battery Saver mode when set.
+- Fixed USSD code via dialer
+- parts: Introduce displayfeature color service
+- Added xiaomi displayfeature service
+- Added xiaomi touchfeature service
+- Updated and reworked the kernel more focus on CPU efficiency and performence
+- MiuiCamera: pdate to leica camera from aurora
+- MiuiCamera: Fixed raw image taking in pro mode
+- media: Add timelapse 4k UHD Camcorder profile to quality map
+- Fixed crashing MIUI Camera when trying to play recorded videos directly from the Camera app
+- Updated HyperOS Gallery and GalleryEditor
+- Imported HyperOS Gallery Bokeh
+- Fixed and Improved in auto brightness in aod
+- Fixed video buffering in streaming apps
+- rootdir: Set dex2oat thread count and cpuset
+- init: Register and enable qcrild & data services on boot
+- Sepolicy: address hal_perf_default fingerprint denial
+- Updated BCR to 1.74
+
+
 **Device Changelog 13.12.2024**
 
 - December security patch
