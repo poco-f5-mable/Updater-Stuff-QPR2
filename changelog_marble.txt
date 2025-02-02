@@ -5,6 +5,43 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 02.2.2025**
+
+- Latest source changes
+- Introduce High Touch Sampling Rate (Settings/Display)
+- Introduce High Touch Sampling Rate (Touch Boost) Quick Settings (QS) tile (no need to go to settings every time you want to enable it)
+- Introduce Automatic High Brightness Mode (HBM) (Settings/Display) and Auto HBM QS Tile
+- Introduce one-shot HBM via Quick Settings (QS) tile (QS tile will be unavailable if Auto Brightness or Automatic HBM service is enabled)
+- In QS, there are now two separate QS tiles: "Auto HBM" and "HBM"
+- Enabled proper notifications when each QS tile is activated
+- Introduced long press on QS tiles (Touch Boost tile, HBM tile, Thermal Profile, and Refresh Rate tile) to open the main settings page
+- Reverted USSD fix - may be causing no SIM signal (hotfix)
+- Introduce DSPVolumeSynchronizer - prevents speaker distortion at high volume
+- Add Refresh Rate QS tile
+- ThermalTileService: Automatically switch to battery thermal profile when system battery saver mode is on
+- ThermalTileService: Disable CPU LPM in performance mode
+- ThermalTileService: Introduced Process Priority and Memory Trimming Level for better performance (Performance Mode Thermal) and better battery life (Battery Saver Thermal)
+- Fixed single tap to ambient
+- Fixed double tap to wake
+- Fixed touch not working when the phone is in AOD for long
+- Fixed AOD brightness for both manual and auto brightness
+- Fixed some TWS not working properly
+- Fixed Leica camera occasional crash in specific cases
+- Dropped HyperOS Gallery, Gallery Editor, HyperOS Bokeh, and MIUI Video Player
+- Fixed Leica not opening in the lock screen widget
+- Fixed double-clicking the power button while on the lock screen to open the Leica camera
+- Added Quick Tap
+- Improved Game Space (Hotfix - can add games now)
+- rootdir: Do not allow foreground tasks to run on CPU7
+- rootdir: Move background cpuset to CPU0-1
+- sepolicy: Remove /sys/class/qcom-battery label
+- Migrate mount point creation out of Android.mk
+- Update WiFi overlay comments from AOSP
+- Remove backup calling strings
+- Drop TelecommResCommon, which only sets default values
+- Updated gameproputils spoofing devices (can play BGMI/PUBG at 120 fps)
+
+
 **Device Changelog 11.1.2025**
 
 - Latest source changes
