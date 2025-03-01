@@ -5,6 +5,38 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 01.3.2025**
+
+- Latest source changes
+- Fixed USSD code via dialer
+- Add migration to turn off persist.vendor.radio.poweron_opt
+- qcril-database: Use common tool to generate db
+- Fixed thermal profile correctly apply when change via QS thermal tile
+- Update blobs from marble V816.0.14.0.UMRMIXM for marble vendor tree
+- Update blobs from diting V816.0.10.0.ULFMIXM for common vendor tree
+- sepolicy: Remove duplicate snxxx AIDL rules
+- Switch to armv9-a ARCH variant
+- ThermalTileService: Added CPU Governor Management
+- ThermalTileService: Introduce Gaming Mode with per-game optimizations
+- Add auto-enable High Touch Polling Rate in Game Mode (enable toggle from settings/display/HTPR page)
+- Add video demonstration for High Touch Polling Rate feature
+- Implement torch light control (via QS Flashlight Tile)
+- Implement supportsSetTorchModeExt
+- Implement setTorchModeExt
+- camera: Add enabled bool for finished workarounds
+- sepolicy: Address a cameraserver neverallow
+- rootdir: Label brightness node correctly
+- camera: Cap max_brightness
+- epolicy: Allow cameraserver to search directories in sysfs_leds
+- sepolicy: Allow hal_camera_default to access sys_thermal_flash_state
+- Enable TWS plus feature using persist property
+- Enable Qualcomm TrueWireless™ Stereo
+- AAC frame control enabled for hal implementation
+- Add support for low power adaptive control feature
+- Disable BT A2DP AAC whitelist
+- Camera: Don't throw exceptions when value pairs have spaces in them
+- Switch to source-built fx.tunnel interface
+
 **Device Changelog 02.2.2025**
 
 - Latest source changes
