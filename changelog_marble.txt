@@ -5,6 +5,20 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 14.3.2025**
+
+- Latest source changes
+- March security patch (QPR1)
+- Introduce GameBar v1.0 (Settings/Display)
+- Introduce Power profiles (Settings/Battery) and powerprofile QS tile (4 Modes - Balance // Gameboost // High Performance // Powersave )
+- rootdir: Drop platform specific setup from init.qcom.sh
+- rootdir: Drop platform specific setup from init.qcom.early_boot.sh
+- rootdir: Drop platform specific setup from init.qcom.post_boot.sh
+- rootdir: Drop useless init.qcom.class_core.sh
+- auto-enable support for High Touch Pooling Rate for games added in gamespace app.(enable toggle in htsr settings page)
+- Updated gameproputils spoofing devices (can play BGMI/PUBG at 120 fps)
+
+
 **Device Changelog 01.3.2025**
 
 - Latest source changes
