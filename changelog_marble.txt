@@ -5,6 +5,43 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 08.6.2025**
+
+- Latest source changes
+- June security patch (QPR2) ,HyperOS 2 based
+- Refactor per-app GameBar (settings/apps/GameBar)
+- Refactor per-app high touch sampling (settings/Display/High touch sampling rate)
+- powertools: Refactor andded zram configuration and bump version to v7.1
+- Refactor per app refresh rate and added support for 90 hz and 90 hz
+- Introduce quicksettings compact Media player mode(derp settings/Misc)
+- Introduce x-Reality Display engine modes (settings/display/colors/Display engine)
+- Updated gameproputils spoofing devices
+- Forcefully enable Hotspot Speed setting (bypass country restriction for wifi 6 GHz hotspot)
+- Added ViPER4AndroidFX
+- configs: audio: Update audio_policy_configuration from HyperOS
+- Enable support for kernel idle timer
+- Enable STATE_DOZE
+- Improved vmax gain for normal haptics
+- Build libexif
+- Drop sdrHdrRatio
+- Removed thermal throttle in HBM
+- Set custom QR Tile Activity
+- Updated media releated prop from hyperos 2
+- carrierconfig update from Pong
+
+
+**Device Changelog 02.6.2025**
+
+- Latest source changes
+- May security patch (QPR2) ,HyperOS 2 based
+- Full Rebased trees and kernel trees
+- Included GameBar v6 and Power Tools v6 with per app power profile support
+- Included Leica camera ,Dolby Atmos and Dolby Vision
+- Included per app refresh rate , High Brightness Mode (HBM) , 
+- Updated High Touch Sampling rate (HTSR) with per app htsr support and Touch Boost QS tile
+- Included custom display saturation slider,BCR
+
+
 **Device Changelog 01.3.2025**
 
 - Latest source changes
