@@ -1,13 +1,13 @@
 {
   "response": [
     {
-      "datetime": 1749402297,
-      "filename": "DerpFest-v15.2-20250608-marble-weekly-Stable.zip",
-      "id": "709a434273b09b832d5a4b69c99ac91f3e6ba8cd1d54d4a6ba25575ff9a7e5cb",
+      "datetime": 1754208912,
+      "filename": "DerpFest-v16.0-20250803-marble-weekly-Stable.zip",
+      "id": "7a0206da318487e19199393c30bde583158f7b9617c8c483fe4677ff32ecf167",
       "romtype": "weekly",
-      "size": 2841823810,
-      "url": "https://sourceforge.net/projects/marble-personal/files/release-builds/DerpFest-v15.2-20250608-marble-weekly-Stable.zip/download",
-      "version": "v15.2"
+      "size": 2698363494,
+      "url": "https://sourceforge.net/projects/marble-personal/files/release-builds/DerpFest-v16.0-20250803-marble-weekly-Stable.zip/download",
+      "version": "v16.0"
     }
   ]
 }

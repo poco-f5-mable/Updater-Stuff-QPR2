@@ -5,6 +5,29 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 03.8.2025**
+
+- Droped vision support to fix OTT apps crash (Hotfix)
+
+
+**Device Changelog 02.8.2025**
+
+- Initial a16 Build
+- Build type: User ,Enforcing
+- Latest source changes
+- Updated sidebar and LMOFreeform (packages/apps/sidebar)
+- OTA support enabled
+- Gamespoof removed for now (will be added in upcoming builds)
+• GameBar v8 & PowerTools v9.5
+• Leica camera, 
+• Dolby Atmos, ViperFX 
+• High Brightness Mode (HBM) , Automatic HBM
+• High Touch Sampling rate (HTSR) and Touch Control ,  per app refresh rate
+• Custom display saturation slider,HDR Brightness adjustments
+• Gestures : Double tap to ambient,Shake to Toggle Torch,Flip to Shhh,
+• BCR
+
+
 **Device Changelog 08.6.2025**
 
 - Latest source changes
