@@ -5,6 +5,40 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+**Device Changelog 01.9.2025**
+
+- Latest source changes
+- Aug security patch
+- Update blobs from OS2.0.205.0.VMRMIXM
+- Migrate to common libqti-perfd-client and power-libperfmgr
+- Remove QTI perfd
+- rootdir: Enable powerhint parsing after boot completion
+- powerhint: Properly adapt for marble (sd 7gen2)
+- Enable ADPF CPU hints for improved UI performance
+- Optimized auto brightness adjustment
+- overlay: Enable haptic text cursor
+- overlay: Remove deprecated config_mobile_tcp_buffers/networkAttributes
+- Remove vendor RenderScript implementation
+- CONFIG_IEEE80211AX -> WIFI_FEATURE_HOSTAPD_11AX
+- Update avb from hyperos 2
+- Silence HWUI logspam
+- overlay: Push screen recorder max FPS to 120FPS
+- overlay: Drop MMS user agent overlays
+- overlay: Remove config_cellBroadcastAppLinks
+- add charging bypass toggle with qs tile support
+- powerprofile: fixed service initialtion , inline with peridot v9.5
+- gamebar: Rewrite in kotlin
+- gamebar: Introduce per-app game fps log feature
+- touchsampling: Rewritten in kotlin and using xiaomi touchfeature interface
+- sidebar: Updated sidebar service and lmofreeform
+- sidebar: Introduce Game centre Quick tools
+- aidl: fingerprint: Set properties for IFAA
+- IFAAService: Add null checks
+- IFAAService: Simplify startBIOManager function
+- updated BCR to 1.79
+- Updated gameproputils spoofing devices 
+
+
 **Device Changelog 03.8.2025**
 
 - Droped vision support to fix OTT apps crash (Hotfix)
