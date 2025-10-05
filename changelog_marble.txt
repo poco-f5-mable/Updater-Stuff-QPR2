@@ -5,6 +5,40 @@ Device maintainer: kenway214
 
 ## DerpFest 15
 
+
+**Device Changelog 05.10.2025**
+
+- Latest source changes
+- Sep security patch (QPR2) ,HyperOS 2 based (user build)
+- Updated kernel based on rebased tree NitronKernel 5.10.244. (ksu-next added by default)
+- Improved touch responsivity and added touch boost
+- BLE: Max GATT connections as a central are increased to 10
+- BT-Intf: Enable LEAudio bydefault for all Android-V upgrades.
+- BT-Intf: Enable LEAudio swb bydefault for all Android-V upgrades.
+- BT-interfaces: Don't enable ASHA for all chipsets.
+- BT: Enable Battery Service profile (BAS)
+- BT: Enable PBAP SIM feature
+- BT: Move SAP server property to system ext
+- Bluetooth: Changing vendor ID as QTI for Device ID Profile
+- Bluetooth: Disable HID Device Profile
+- Enable AptX voice property
+- Enable ELF checks for audio blobs
+- Enable LE audio offload support property
+- Enable bluetooth asha central profile from vendor.prop
+- Enable bluetooth avrcp controller profile
+- Enable bluetooth sap server profile
+- Strong passed by default. use updated pif and keybox . clear playstore data and done.
+- Gphotos unlimited added (source sided)
+- Qs tile torch strength works (torch tile should be ecpanded one not mini tile.. hold expanded torch tile to change torch strength)
+- Bypass Charging fixed
+- powerhint: Tuned for marble
+- Updated gameproputils spoofing devices
+- Introduced Xiaomiparts v3.0
+- Powerprofiles Optimized for marble , sconfig mapping now inline according to marble changes (Moved to setings/system/powerprofile)
+- Gamebar v11 with advanced logging features (Moved to setings/system/gamebar)
+- Dolby: Updated Dolby engine
+
+
 **Device Changelog 01.9.2025**
 
 - Latest source changes
