@@ -6,6 +6,29 @@ Device maintainer: kenway214
 ## DerpFest 15
 
 
+**Device Changelog 22.10.2025**
+
+- Latest source changes (Based on priv-maintainer source branch)
+- Kernel: Updated NitronKernel with misc changes and improvements (Non Rooted)
+- Implemented gesture anywhere
+- Enable ambient AOD and Ambient AOD toggle
+- Implement 1000 nits brightness via blightness slider
+- Removed HBM support and auto HBM support- not needed anymore
+- Improved autobrightness in dark environment.
+- Fixed issue where phone disconnects bluetooth randomly while bluetooth is connected for prolonged peridot
+- Implement GameBar 12.5 with fixed gesture support, external Gamebar log opening in graphs, and export them.
+- DolbyManager: Tuned dolby profiles
+- DolbyManager: Fixed volume leveler, after a reboot, turns back on by itself
+- DolbyManager: Fixed graphics equalizer changes itself to random custom equalizer
+- Powerhint: Adjust hints for improved performance and battery efficiency
+- Moved to lineage htsr implementation
+- cpumanager: Fixed crash issues
+- gpumanager: Updatd to latest implementation
+- Fixed Qs tile torch strength sometimes causing camera crash
+- workaround to prevent kernel panic issue due to wifi issue causing system reboot
+- Misc tweaks and improvements
+
+
 **Device Changelog 05.10.2025**
 
 - Latest source changes
